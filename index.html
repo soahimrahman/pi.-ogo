@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070A14" />
+  <meta name="description" content="Pi Lab brand identity exploration — premium logo concept presentation." />
+  <title>Pi Lab — Brand Identity Exploration</title>
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient background -->
+  <div class="bg">
+    <div class="bg__grid"></div>
+    <div class="bg__noise" aria-hidden="true"></div>
+  </div>
+
+  <!-- Top nav -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="https://www.soahimrahman.pro.bd/" aria-label="Pi Lab Identity" target="_blank" rel="noopener">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">Pi Lab Identity</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#overview">Overview</a>
+        <a href="#concepts">Concepts</a>
+        <a href="#mockups">Mockups</a>
+        <a href="#recommendation">Recommendation</a>
+</nav>
+
+      <div class="nav__actions">
+        <!-- Primary call to action: explore the concepts. Removed the glow toggle for a cleaner UI -->
+        <a class="pill pill--primary" href="#concepts">Explore</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile" id="mobileMenu" aria-hidden="true">
+      <div class="mobile__panel">
+        <a href="#overview">Overview</a>
+        <a href="#concepts">Concepts</a>
+        <a href="#construction">Construction</a>
+        <a href="#variations">Color & Variations</a>
+        <a href="#mockups">Mockups</a>
+        <a href="#comparison">Comparison</a>
+        <a href="#recommendation">Recommendation</a>
+</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero section" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy reveal">
+          <p class="eyebrow">Identity System • 2026</p>
+          <h1 class="headline">Pi Lab Brand Identity Exploration</h1>
+          <p class="subhead">
+            A geometric monogram logo system designed for a digital innovation and technology company — built for
+            precision, scalability, and instant recognition.
+          </p>
+
+          <div class="hero__cta">
+            <a class="pill pill--primary" href="#concepts">Explore Concepts</a>
+            <a class="pill pill--ghost" href="#recommendation">View Recommendation</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+            <div class="stat__v">07</div>
+              <div class="stat__k">Concept directions</div>
+            </div>
+            <div class="stat">
+              <div class="stat__v">4×</div>
+              <div class="stat__k">Use-case coverage</div>
+            </div>
+            <div class="stat">
+              <div class="stat__v">∞</div>
+              <div class="stat__k">Scalability</div>
+            </div>
+          </div>
+        </div>
+        <!-- Hero illustration: modern abstract background. The previous logo collage has been replaced with a high‑quality hero image. -->
+        <div class="hero__illustration reveal" data-delay="120">
+          <picture>
+            <source srcset="assets/hero-bg.webp" type="image/webp">
+            <img src="assets/hero-bg.png" alt="Abstract technology background" loading="lazy"/>
+          </picture>
+        </div>
+      </div>
+
+      <a class="scrollHint" href="#overview" aria-label="Scroll to overview">
+        <span class="scrollHint__dot"></span>
+      </a>
+    </section>
+
+    <!-- Identity frame showing all logo variations -->
+    <section class="section section--frame" id="identity">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Pi Lab Brand Identity Exploration</h2>
+          <p>A single frame showcasing every logo concept together to illustrate the breadth of the system.</p>
+        </div>
+        <div class="identityFrame reveal" data-delay="120">
+          <picture>
+            <source srcset="assets/elements-all-in-one.webp" type="image/webp" />
+            <!-- Add data-preview so this collage can be opened in the lightbox. Use alt as caption. -->
+            <img src="assets/elements-all-in-one.png" alt="All Pi Lab logo concepts together" loading="lazy" data-preview />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section" id="overview">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Project Overview</h2>
+          <p>
+            This presentation showcases multiple logo directions developed for Pi Lab, focusing on geometric precision,
+            brand recognition, scalability, and modern technology aesthetics.
+          </p>
+        </div>
+
+        <div class="panel reveal" data-delay="120">
+          <div class="panel__col">
+            <h3>Design Principles</h3>
+            <ul class="list">
+              <li><span class="dot"></span>Single strong silhouette</li>
+              <li><span class="dot"></span>Legible at small sizes</li>
+              <li><span class="dot"></span>Geometric construction</li>
+              <li><span class="dot"></span>Premium gradient system</li>
+              <li><span class="dot"></span>Distinctive brand ownership</li>
+            </ul>
+          </div>
+          <div class="panel__col">
+            <h3>Brand Keywords</h3>
+            <div class="tags" role="list">
+              <span class="tag" role="listitem">Innovation</span>
+              <span class="tag" role="listitem">Precision</span>
+              <span class="tag" role="listitem">Technology</span>
+              <span class="tag" role="listitem">Future</span>
+              <span class="tag" role="listitem">Minimal</span>
+            </div>
+
+            <div class="note">
+              <div class="note__icon" aria-hidden="true">✦</div>
+              <p>
+                Visual language is tuned for a dark UI environment with soft-white typography, electric blue/cyan
+                gradients, and subtle glow accents.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Concepts (generated) -->
+    <section class="section" id="concepts">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Logo Concepts</h2>
+          <p>Each direction explores a different balance of geometry, motion and negative space — built to scale across products.</p>
+        </div>
+        <!-- Concept list populated by script.js. Per client requirements, this section should only display the logo concepts themselves without additional navigation or descriptive UI. -->
+        <!--
+          The concepts section should only display the logo concepts themselves without
+          any additional text or interactive UI. To ensure graceful fallback when
+          JavaScript is disabled or fails to execute (for example when viewed via
+          the file:// protocol), we render all seven concept images directly in
+          the markup. Each card consists solely of the image and appropriate alt
+          text. The script will no longer override this container; instead it
+          only initialises the lightbox on these elements. If you add or remove
+          concepts, be sure to update this list accordingly.
+        -->
+        <div class="concepts" id="conceptList" aria-live="polite">
+          <article class="concept reveal" data-delay="0">
+            <div class="concept__media">
+              <picture>
+                <source srcset="assets/concept-01.webp" type="image/webp" />
+    <!-- Provide descriptive alt text so screen readers convey the meaning of the graphic. -->
+    <img src="assets/concept-01.png" alt="Curved P &amp; L loop monogram (Concept 01)" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </article>
+          <article class="concept reveal" data-delay="40">
+            <div class="concept__media">
+              <picture>
+                <source srcset="assets/concept-02.webp" type="image/webp" />
+    <img src="assets/concept-02.png" alt="Spiraling L &amp; P interplay (Concept 02)" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </article>
+          <article class="concept reveal" data-delay="80">
+            <div class="concept__media">
+              <picture>
+                <source srcset="assets/concept-03.webp" type="image/webp" />
+    <img src="assets/concept-03.png" alt="Three‑blade prismatic monogram (Concept 03)" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </article>
+          <article class="concept reveal" data-delay="120">
+            <div class="concept__media">
+              <picture>
+                <source srcset="assets/concept-04.webp" type="image/webp" />
+    <img src="assets/concept-04.png" alt="Ribbon infinity loop (Concept 04)" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </article>
+          <article class="concept reveal" data-delay="160">
+            <div class="concept__media">
+              <picture>
+                <source srcset="assets/concept-05.webp" type="image/webp" />
+    <img src="assets/concept-05.png" alt="Fluid ribbon geometry (Concept 05)" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </article>
+          <article class="concept reveal" data-delay="200">
+            <div class="concept__media">
+              <picture>
+                <source srcset="assets/concept-06.webp" type="image/webp" />
+    <img src="assets/concept-06.png" alt="Bold segmented monogram (Concept 06)" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </article>
+          <article class="concept reveal" data-delay="240">
+            <div class="concept__media">
+              <picture>
+                <source srcset="assets/concept-07.webp" type="image/webp" />
+    <img src="assets/concept-07.png" alt="Split parallel forms (Concept 07)" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Construction -->
+    <section class="section" id="construction">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Construction & Geometry</h2>
+          <p>
+            A consistent geometry system keeps the monograms optically balanced. Curves are built on controlled radii,
+            strokes align to a modular grid, and negative space is engineered for clarity.
+          </p>
+        </div>
+
+        <div class="grid grid--2 reveal" data-delay="120">
+          <figure class="card">
+            <!-- Showcase the recommended direction in construction: concept 05 board -->
+            <picture>
+              <source srcset="assets/concept-05.webp" type="image/webp">
+              <img src="assets/concept-05.png" alt="Construction board preview" loading="lazy" data-preview />
+            </picture>
+            <figcaption class="caption">Modular grid and proportional guides for consistent curvature and corner radii.</figcaption>
+          </figure>
+
+          <div class="stack">
+            <div class="card card--soft">
+              <h3>What we optimize</h3>
+              <ul class="list">
+                <li><span class="dot"></span>Geometric balance & optical corrections</li>
+                <li><span class="dot"></span>Proportional rhythm between stems and counters</li>
+                <li><span class="dot"></span>Negative space for recognizability at 16–24px</li>
+                <li><span class="dot"></span>Symbol integration for “P + L” clarity</li>
+              </ul>
+            </div>
+            <figure class="card">
+              <!-- Use concept 06 as a secondary construction board -->
+              <picture>
+                <source srcset="assets/concept-06.webp" type="image/webp">
+                <img src="assets/concept-06.png" alt="Construction and mockups board" loading="lazy" data-preview />
+              </picture>
+              <figcaption class="caption">Wireframe construction ensures the mark stays consistent across sizes and contexts.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Variations -->
+    <section class="section" id="variations">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Color & Variations</h2>
+          <p>
+            Primary gradient is designed for dark UI, while monochrome ensures legibility in print, emboss, and low-contrast use cases.
+          </p>
+        </div>
+
+        <div class="variations reveal" data-delay="120">
+          <div class="vcard">
+            <div class="vcard__top">
+              <div class="swatch swatch--grad" aria-hidden="true"></div>
+              <div class="vcard__meta">
+                <h3>Primary Gradient</h3>
+                <p>Electric cyan → blue → violet with soft glow for premium digital contexts.</p>
+              </div>
+            </div>
+            <div class="vcard__media">
+              <!-- Showcase a premium gradient using Concept 05 -->
+              <picture>
+                <source srcset="assets/concept-05.webp" type="image/webp">
+                <img src="assets/concept-05.png" alt="Primary gradient variation board" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </div>
+
+          <div class="vcard">
+            <div class="vcard__top">
+              <div class="swatch swatch--mono" aria-hidden="true"></div>
+              <div class="vcard__meta">
+                <h3>Monochrome</h3>
+                <p>Pure forms that hold up in laser, print, engraving, and minimal UI surfaces.</p>
+              </div>
+            </div>
+            <div class="vcard__media">
+              <!-- Use a bold segmented monogram (Concept 06) for monochrome demonstration -->
+              <picture>
+                <source srcset="assets/concept-06.webp" type="image/webp">
+                <img src="assets/concept-06.png" alt="Monochrome variation board" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </div>
+
+          <div class="vcard">
+            <div class="vcard__top">
+              <div class="swatch swatch--light" aria-hidden="true"></div>
+              <div class="vcard__meta">
+                <h3>Light Background</h3>
+                <p>Clean contrast rules and spacing to preserve silhouette on white surfaces.</p>
+              </div>
+            </div>
+            <div class="vcard__media">
+              <!-- Concept 03 has high contrast and works well on light backgrounds -->
+              <picture>
+                <source srcset="assets/concept-03.webp" type="image/webp">
+                <img src="assets/concept-03.png" alt="Light background / system board" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mockups -->
+    <section class="section" id="mockups">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Mockups & Applications</h2>
+          <p>Real-world touchpoints to stress-test readability, hierarchy, and premium brand feel.</p>
+        </div>
+
+        <div class="masonry reveal" data-delay="120" id="mockupGrid">
+          <!-- Cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="section" id="comparison">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Concept Comparison</h2>
+          <p>Quick side-by-side review. Hover to spotlight a direction.</p>
+        </div>
+
+        <div class="compare reveal" data-delay="120" id="compareRow">
+          <!-- Tiles injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation -->
+    <section class="section" id="recommendation">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Recommended Direction</h2>
+          <p>
+            Concept 05 is our top pick. A graceful ribbon unites P and L into a modern, timeless symbol. A refined gradient adds depth while keeping the mark versatile from app icons to signage, capturing both innovation and precision.
+          </p>
+        </div>
+
+        <div class="recommend reveal" data-delay="120">
+          <div class="recommend__copy">
+            <h3>Which logo works best for Pi Lab</h3>
+            <p class="muted" style="margin:0 0 12px; line-height:1.6;">
+              A technology‑driven brand like Pi Lab needs an identity that feels instantly owned and adapts effortlessly across every touchpoint. <strong>Concept 05</strong> does just that: a single fluid gesture merges P and L, and its premium gradient works beautifully on screens, stationery and signage alike.
+            </p>
+            <ul class="list">
+              <li><span class="dot"></span>Elegant ribbon form unifying P + L</li>
+              <li><span class="dot"></span>Premium gradient and subtle depth for modern UI</li>
+              <li><span class="dot"></span>Exceptional scalability from 16 px to signage</li>
+              <li><span class="dot"></span>Distinctive and memorable silhouette</li>
+            </ul>
+
+            <div class="note">
+              <div class="note__icon" aria-hidden="true">✓</div>
+              <p>
+                Next step: refine optical corrections, finalize clear-space rules, and build the full logo lockup system
+                (horizontal, stacked, symbol-only).
+              </p>
+            </div>
+          </div>
+
+          <div class="recommend__media">
+            <div class="logoStage logoStage--lg">
+              <div class="logoStage__glow"></div>
+              <picture>
+                <source srcset="assets/concept-05.webp" type="image/webp">
+                <img class="logoStage__img" src="assets/concept-05.png" alt="Recommended direction — Concept 05 board" loading="lazy" data-preview />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>Pi Lab Logo Presentation</div>
+        <div class="muted">Logo Designed by <span class="mono">Soahim Rahman Tasin</span></div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Lightbox for image preview. Hidden by default and shown via script when a concept image is clicked. -->
+  <!-- Mark the lightbox as a true modal for assistive technologies -->
+  <div id="lightbox" class="lightbox" hidden aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="lightbox__close" aria-label="Close viewer">×</button>
+    <button class="lightbox__prev" aria-label="Previous">‹</button>
+    <img class="lightbox__img" alt="" />
+    <button class="lightbox__next" aria-label="Next">›</button>
+    <div class="lightbox__caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
